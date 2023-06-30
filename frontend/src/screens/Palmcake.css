@@ -1,0 +1,50 @@
+/* .cake_hovor {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  } */
+  
+  .cake_img {
+    display: block;
+    width: 600px;
+    height: auto;
+  }
+/*   
+  .overlay {
+    position: absolute;
+    top: -10px;
+    bottom: 0;
+    left: 150px;
+    right: 0;
+    height: 700px;
+    width: 400px;
+    opacity: 0;
+    transition: .3s ease;
+  } */
+  
+  /* .cake_hovor:hover .overlay {
+    opacity: 1;
+  }
+  
+  .cake_icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .fa-user:hover {
+    color: #eee;
+  } */
+  .cake-head{
+    margin-right: 300px;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: teal;
+    font-size: 40px;
+  }

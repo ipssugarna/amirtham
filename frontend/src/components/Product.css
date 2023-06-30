@@ -1,0 +1,31 @@
+.add-to-cart-button {
+    background-color: teal;
+    color: white;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: orange;
+  }
+  .image-link {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .image-link:hover .image-overlay {
+    opacity: 1;
+  }
+  
+  .eye-icon {
+    color:white;
+    font-size:60px;
+  }
+  

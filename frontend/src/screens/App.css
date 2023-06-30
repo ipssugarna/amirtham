@@ -1,0 +1,523 @@
+/* body {
+  background: linear-gradient(45deg, #ebd547, #f3dc8a, #ffffff);
+  background-size: 400% 400%;
+  animation: pulse 5s ease-in-out infinite;
+
+
+@keyframes pulse {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+} */
+
+/* body {
+  background-image: url('../gt.jpg');
+  background-size: cover;
+  animation: palmyra-bg 30s linear infinite;
+}
+
+@keyframes palmyra-bg {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+} */
+
+body {
+  /* background-image: url('../gt.jpg'); */
+  /* background-color: #39b48e; */
+background-blend-mode:multiply;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 1.8;
+}
+
+
+
+
+
+.App {
+ display: flex;
+ justify-content: center;
+}
+.App {
+  background: linear-gradient(to bottom, #FFA500 50%, #FFFFFF 50%);
+}
+.img-container {
+  background: linear-gradient(to bottom, #FFFFFF 50%, #FFA500 50%);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 10;
+  }
+}
+
+.img-container {
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+
+
+
+/* 
+images */
+
+
+
+
+
+/* @keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+
+
+
+
+/* 
+@keyframes carousel-fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#image-carousel {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  animation: carousel-fade 5s linear infinite;
+} */
+
+
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Paralax effect */
+.content{
+  height: 50vh;
+}
+
+.text-content{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  padding: 5px 15px;
+  transform: translate(-50%, -50%);
+  background: gray;
+  color: white;
+  border-radius: 20px;
+  font-size: 50px;
+}
+
+
+
+.card-img-top {
+  height: 100%;
+  width: 100%;
+}
+
+ .zoom-image {
+    max-width: 1500px;
+    max-height: 200px;
+    transition: transform 0.3s; /* Add transition for smooth animation */
+  }
+
+  .zoom-image:hover {
+    transform: scale(1.2); /* Increase the scale value to zoom in more */
+  }
+
+
+/* App.css */
+
+/* Input styles */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 40%;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+ 
+  border: 1px solid #ced4da;
+  background-color: #ffffff;
+  box-shadow: none;
+  outline: none;
+  font-size: 1rem;
+  color: #666;
+  align-items: center;
+}
+
+/* Input focus styles */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: black;
+  box-shadow: 0 0 0 2px #3182ce;
+}
+
+/* Button styles */
+button {
+  background-color: #ffffff;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+  /* Style for the contact form */
+  /* App.css */
+
+/* Container for the form */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form styles */
+.form1 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 90px;
+  background-color: #8b8b87;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form inputs */
+.form1 input[type="text"],
+.form1 input[type="email"],
+.form1 textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 5px solid #0d0d0d;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form1 textarea {
+  height: 120px;
+}
+
+/* Style for the submit button */
+.form1 button[type="submit"] {
+  width: 60%;
+  padding: 10px;
+  background-color: #ffa600;
+  color: #0e0e0e;
+  border: black;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* .form1 button[type="submit"]:hover {
+  background-color: #72d487;
+} */
+
+.form1 button[type="submit"]:active {
+  background-color: #db9a04;
+}
+
+h1 {
+  text-align: center;
+}
+.box {
+  width:1200px;
+}
+
+.section{
+  font-size: 20px;
+}
+
+
+.card {
+  background: #fff;
+
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  transition: all ease 200ms;
+}
+
+.card:hover {
+  transform: scale(1.12);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.card img {
+  object-fit: cover;
+}
+/* #paniyaram-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+#cake-card:hover {
+  transform: scale(1.12);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+#puddu-card:hover {
+  transform: scale(1.12);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+} */
+
+.wrapper{
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+}
+
+
+
+/* Style for the contact form */
+.form1 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #b7b7b7;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #090000;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 120px;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffa600;
+  color: #0e0e0e;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #7fcc40;
+}
+
+button[type="submit"]:active {
+  background-color: #db9a04;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+/* 
+.my-card {
+  background: #fff;
+
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  transition: all ease 200ms;
+}
+
+.my-card:hover {
+  transform: scale(1.12);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.my-card img {
+  object-fit: cover;
+} */
+.my-card {
+  display: grid;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add shadow border styles */
+  padding: 10px; /* Add padding to create spacing */
+  /* Add any additional styles for the grid layout */
+}
+.payment-card {
+  display: grid;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  /* Add any additional styles for the grid layout */
+}
+.items-card {
+  display: grid;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  /* Add any additional styles for the grid layout */
+}
+.order-summary-card {
+  display: grid;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  /* Add any additional styles for the grid layout */
+}
+
+
+/* .my-card .card-body {
+}
+
+.my-card .card-title {
+}
+
+.my-card .card-text {
+}
+
+.my-card a {
+} */
+.caption-animation {
+  animation: slideInLeft 0.0s forwards;
+}
+
+/* @keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+.caption-box {
+  background-color: rgba(11, 13, 12, 0.8);
+  border-radius: 5px;
+  height: 330px;
+  width: 600px;
+  color: white;
+  margin-bottom: 150px;
+  /* margin-top: -200px; */
+  /* padding-top: -200px; */
+  align-items: flex-end; /* Align items to the right */
+  
+  margin-left: 800px; /* Move the box to the right side */
+}
+
+/* Add these new CSS rules */
+.scrolled {
+  height: 70px !important;
+}
+
+/* Modify existing CSS rules */
+.navbar {
+  transition: height 0.3s;
+  /* Remove the height property */
+  /* Rest of the CSS code */
+}
+.active-link {
+  color: orange !important;
+}
+
+
+
+
+.custom-button {
+  background-color: teal;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: orange;
+}
+.hover-button:hover {
+  background-color: orange !important;
+}
