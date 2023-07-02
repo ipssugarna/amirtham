@@ -25,18 +25,18 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get("/api/keys/paypal", (req, res) => {
+app.get("https://amrithamsrilankadd.onrender.com/api/keys/paypal", (req, res) => {
   res.send(process.env.PAYPAL_CLIENT_ID || "sb");
 });
-app.get("/api/keys/google", (req, res) => {
+app.get("https://amrithamsrilankadd.onrender.com/api/keys/google", (req, res) => {
   res.send({ key: process.env.GOOGLE_API_KEY || "" });
 });
 
-app.use("/api/upload", uploadRouter);
-app.use("/api/seed", seedRouter);
-app.use("/api/products", productRouter);
-app.use("/api/users", userRouter);
-app.use("/api/orders", orderRouter);
+app.use("https://amrithamsrilankadd.onrender.com/api/upload", uploadRouter);
+app.use("https://amrithamsrilankadd.onrender.com/api/seed", seedRouter);
+app.use("https://amrithamsrilankadd.onrender.com/api/products", productRouter);
+app.use("https://amrithamsrilankadd.onrender.com/api/users", userRouter);
+app.use("https://amrithamsrilankadd.onrender.com/api/orders", orderRouter);
 
 const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, "/frontend/build")));
