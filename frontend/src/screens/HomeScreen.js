@@ -103,7 +103,7 @@ function HomeScreen() {
   return (
     <div>
       <Helmet>
-        <title>Amirtham</title>
+        <title>Amirtham paste</title>
 
       </Helmet>
 
