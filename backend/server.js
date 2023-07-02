@@ -34,7 +34,7 @@ app.get("/api/keys/google", (req, res) => {
 
 app.use("/api/upload", uploadRouter);
 app.use("/api/seed", seedRouter);
-app.use("/api/products", productRouter);
+app.get("/api/products", productRouter);
 app.use("/api/users", userRouter);
 app.use("/api/orders", orderRouter);
 
