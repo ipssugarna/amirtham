@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "proxy": "https://amrithamsrilankadd.onrender.com",
+  "proxy": "https://amrithamsrilankadd.onrender.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
