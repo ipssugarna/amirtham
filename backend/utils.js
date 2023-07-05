@@ -5,8 +5,8 @@ export const baseUrl = () =>
   process.env.BASE_URL
     ? process.env.BASE_URL
     : process.env.NODE_ENV !== 'production'
-    ? 'https://amrithamsrilankaaa.onrender.com/'
-    : 'https://amrithamsrilankaaa.onrender.com/';
+    ? 'https://amrithamsrilankaa.onrender.com/'
+    : 'https://amrithamsrilankaa.onrender.com/';
 
 export const generateToken = (user) => {
   return jwt.sign(
